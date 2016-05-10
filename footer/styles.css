@@ -1,0 +1,28 @@
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  25% { transform: translateX(-50%); }
+  75% { transform: translateX(50%); }
+  100% { transform: translateX(0%); }
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+
+  background: #ddd;
+  padding: 10px;
+  border-top: #aaa 1px solid;
+
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  font-size: 36px;
+}
+
+.footer:hover .text{
+  animation: marquee 4s infinite linear;
+}

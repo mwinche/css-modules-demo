@@ -1,0 +1,20 @@
+@keyframes blink {
+  0% { color: #ddd; }
+  50% { color: #666; }
+  100% { color: #ddd; }
+}
+
+.header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: #333;
+  color: #ddd;
+
+  padding: 5px;
+}
+
+.text:hover{
+  animation: blink 2s infinite;
+}
