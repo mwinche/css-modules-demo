@@ -8,3 +8,5 @@ css-modules-demo
 ## Startup
 
 `npm start`
+
+Then checkout [[http://localhost:8888/]]
