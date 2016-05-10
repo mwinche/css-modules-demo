@@ -9,4 +9,4 @@ css-modules-demo
 
 `npm start`
 
-Then checkout [http://localhost:8888/](http://localhost:8888/)
+Then open [http://localhost:8888/](http://localhost:8888/).
